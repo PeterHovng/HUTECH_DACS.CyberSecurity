@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Database
+backend/database/attacks.db
+
+# Dataset lớn
+dataset/*.csv
+
+# Tệp tạm
+*.log
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
