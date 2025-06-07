@@ -28,6 +28,7 @@ try:
 #   model = joblib.load(r'C:\Users\garan\OneDrive\Máy tính\wids-project\trained_models\random_forest_multi_class_model.pkl')
     model = joblib.load(r'C:\Users\garan\OneDrive\Máy tính\wids-project\trained_models\decision_tree_multi_class_model.pkl')
 #   model = joblib.load(r'C:\Users\garan\OneDrive\Máy tính\wids-project\trained_models\xgboost_multi_class_model.pkl')
+#   model = joblib.load(r'C:\Users\garan\OneDrive\Máy tính\wids-project\trained_models\ensemble_dt_xg_model.pkl')
     scaler = joblib.load(r'C:\Users\garan\OneDrive\Máy tính\wids-project\trained_models\rf_scaler_multi_class.pkl')
 except FileNotFoundError as e:
     raise HTTPException(status_code=500, detail=f"Error loading model/scaler: {str(e)}")
